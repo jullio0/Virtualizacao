@@ -20,24 +20,25 @@ Este projeto consiste em uma aplicação fullstack com:
 
 ## 📁 Estrutura do Projeto
 
-projeto-k8s-deploy/
-├── backend/
-│   ├── configmap.yaml # Variáveis de ambiente do backend
-│   └── deployment.yaml # Deployment do Flask API
+```
+📁 projeto-k8s-deploy/
+├── backend/                      # Flask API
+│   ├── configmap.yaml            # Variáveis de ambiente do backend
+│   └── deployment.yaml           # Deployment do Flask
 │
-├── database/
-│   ├── secret.yaml # Secrets do PostgreSQL e backend
-│   ├── service.yaml # Service do PostgreSQL
-│   └── statefulset.yaml # StatefulSet com PVC
+├── database/                     # Banco de Dados PostgreSQL
+│   ├── secret.yaml               # Secrets (POSTGRES_USER, DB_PASSWORD, etc.)
+│   ├── service.yaml              # Service do PostgreSQL
+│   └── statefulset.yaml          # StatefulSet + PVC
 │
-├── frontend/
-│   └── deployment.yaml # Deployment do React App
+├── frontend/                     # Aplicação React
+│   └── deployment.yaml           # Deployment do Frontend React
 │
-├── ingress/
-│   └── ingress.yaml # IngressController com rotas / e /api
+├── ingress/                      # Ingress Controller
+│   └── ingress.yaml              # Regras de rota para "/" e "/api"
 │
-└── namespace.yaml # Definição dos namespaces usados
-
+└── namespace.yaml                # Definição dos namespaces usados
+```
 
 ---
 
