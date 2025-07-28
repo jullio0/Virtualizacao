@@ -1,7 +1,7 @@
 # Disciplina de Virtualização
 Projeto Fullstack Kubernetes: Flask + React + PostgreSQL
 
-Grupo: Júlio Cézar Netto de Araújo, Jardson Lúcio Perez da Silva e Clebson Luiz da Silva
+Grupo: Júlio Cézar Netto de Araújo, Jardson Lúcio Peres da Silva e Clebson Luiz da Silva
 
 # 📦 Sistema de Mensagens - Deploy Kubernetes
 
